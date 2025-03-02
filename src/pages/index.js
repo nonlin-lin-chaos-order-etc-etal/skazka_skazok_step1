@@ -121,12 +121,12 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <p style={{display: "table-cell", 'text-align':"center",'vertical-align':'middle'}}>
-        <img
+        <a href='https://step2.any.surf/'><img
           alt='Image by Brian Wildsmith'
           src="../by_Brian_Wildsmith.png"
           width={442}
           height={640}
-        /><br/>
+        /></a><br/>
         Image by Brian Wildsmith
       </p>
     </main>
